@@ -55,7 +55,7 @@
 	.cbp .cbp-item.with-spacing{
 		padding:10px;
 	}
-	
+
   .cbp img {
     display: block;
     width: 100%;
@@ -168,11 +168,11 @@
 .cbp-caption, .cbp-caption-defaultWrap, .cbp-caption-activeWrap {
   display: block; }
 
-.cbp-caption-activeWrap {
-  background-color: #fff; }
+.cbp-caption-activeWrap {background: -webkit-linear-gradient(left, #f857a6 0%,#ff5858 100%);background: -moz-linear-gradient(left, #f857a6 0%,#ff5858 100%);
+background: -ms-linear-gradient(left, #f857a6 0%,#ff5858 100%);background: -o-linear-gradient(left, #f857a6 0%,#ff5858 100%);background:linear-gradient(left, #f857a6 0%,#ff5858 100%);}
 
 .cbp-caption-activeWrap.dark {
-  background-color: #212121; }
+  background: #212121; }
 
 .cbp-caption-active .cbp-caption, .cbp-caption-active .cbp-caption-defaultWrap, .cbp-caption-active .cbp-caption-activeWrap {
   overflow: hidden;
@@ -190,25 +190,25 @@
     caption miscellaneous style
     --------------------------------------------------------------- */
 .cbp-l-caption-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 0.3em;
 }
 
 .cbp-l-caption-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .cbp-l-caption-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   letter-spacing: 3px;
-  padding: 0 6px; 
+  padding: 0 6px;
 }
 
 .cbp-l-caption-buttonLeft, .cbp-l-caption-buttonRight {
   color: #FFFFFF;
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin: 4px;
     padding: 0 6px;
@@ -221,8 +221,8 @@
 }
 
 .cbp-l-caption-buttonLeft:hover, .cbp-l-caption-buttonRight:hover, .cbp-l-caption-buttonLeft:focus, .cbp-l-caption-buttonRight:focus {
-  color: #BF0731;
-	border: 2px solid #BF0731;
+  color: #fff;
+	border: 2px solid #fff;
 }
 
 /*  END - caption miscellaneous style */
@@ -585,8 +585,8 @@
   	background-color: transparent;
     color: #bdbdbd;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     position: relative;
     overflow: visible;
     margin: 0 25px;
@@ -594,23 +594,17 @@
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     font-weight: 500;
-	text-transform: uppercase;
 }
 
-.cbp-l-filters-alignCenter .cbp-filter-item:hover {color: #2B3444; }
-
-.cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active {
-	color: #2B3444;
-  	cursor: default;
-    border-bottom: 1px solid #2B3444;
-  }
+.cbp-l-filters-alignCenter .cbp-filter-item:hover {color: #212121; }
+.cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active {color: #212121;cursor: default;}
 
 .cbp-l-filters-alignCenter .cbp-filter-counter {
     background-color: transparent;
     color: #bdbdbd;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     padding: 10px 30px;
     position: relative;
     overflow: visible;
@@ -652,7 +646,7 @@
     background-color: transparent;
     color: #bdbdbd;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 	font-size:13px;
     padding: 10px 30px;
     position: relative;
@@ -660,7 +654,7 @@
     margin: 0 5px;
     display: inline-block;
     -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; 
+    transition: all .3s ease-in-out;
 	border-radius: 20px;
 	font-weight: 500; }
     .cbp-l-filters-alignLeft .cbp-filter-item:hover {
@@ -669,8 +663,8 @@
       background-color: #6C7A89;
       border: 1px solid #6C7A89;
       color: #fff;
-      cursor: default; 
-	  
+      cursor: default;
+
 	  }
   .cbp-l-filters-alignLeft .cbp-filter-counter {
     display: inline; }
@@ -683,21 +677,20 @@
     background-color: transparent;
     color: #bdbdbd;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-	font-size:13px;
-    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+	font-size:16px;
+    padding: 10px 20px;
     position: relative;
     overflow: visible;
     margin: 0 5px;
     display: inline-block;
     -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; 
-	border-radius: 20px;
-	font-weight: 500;
+    transition: all .3s ease-in-out;
+	   font-weight: 500;
 	}
     .cbp-l-filters-alignRight .cbp-filter-item:hover {
       /* @editable properties */
-      color: #2B3444; }
+      color: #212121; }
       .cbp-l-filters-alignRight .cbp-filter-item:hover .cbp-filter-counter:before {
         display: block; }
       .cbp-l-filters-alignRight .cbp-filter-item:hover .cbp-filter-counter {
@@ -707,40 +700,31 @@
         opacity: 1; }
     .cbp-l-filters-alignRight .cbp-filter-item.cbp-filter-item-active {
       /* @editable properties */
-      color: #FFFFFF;
-      background-color: #1de9b6;
-      border-color: #1de9b6;
-      cursor: default; 
+      color: #212121;
+      cursor: default;
 	  }
-	  
+
 	  .cbp-l-filters-alignRight .cbp-filter-item.cbp-filter-item-active.dark{
-		 background-color: #212121;
-      	 border-color: #212121;
+      color: #212121;
+      cursor: default;
 	  }
   .cbp-l-filters-alignRight .cbp-filter-counter {
     /* @editable properties */
-    background: none repeat scroll 0 0 #1de9b6;
-    border-radius: 3px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
     margin: 0 auto;
-	font-size:13px;
+	  font-size:13px;
     padding: 4px 0;
     text-align: center;
     width: 34px;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    opacity: 0;
-    -webkit-transition: opacity .25s ease, bottom .25s ease;
-    transition: opacity .25s ease, bottom .25s ease; }
+    bottom: 22px;
+    right: -10px;}
     .cbp-l-filters-alignRight .cbp-filter-counter:before {
       /* @editable properties */
       content: "";
       position: absolute;
-      bottom: -4px;
+      bottom: 22px;
       left: 0;
       right: 0;
       margin: 0 auto;
@@ -3528,15 +3512,16 @@
 
 .cbp-l-grid-projects-title {
   /* @editable properties */
-  font-family: 'Roboto', sans-serif;
-  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 25px;
   text-align: center;
+  font-size: 18px;
    }
 
 .cbp-l-grid-projects-desc {
   /* @editable properties */
-  font-family: 'Roboto', sans-serif;
-  margin-top: 5px; 
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
   text-align: center;
   }
 
@@ -3779,7 +3764,7 @@
   padding: 0 0 30px;
   text-align: center;
   width: 100%;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 .portfolio-filter-header{
   background-color: #BF0731;
